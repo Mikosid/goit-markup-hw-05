@@ -577,7 +577,7 @@ img {
   background-color: #4d5ae5;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   border: none;
   cursor: pointer;
