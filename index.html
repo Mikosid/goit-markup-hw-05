@@ -433,7 +433,7 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
         <div class="modal">
             <button type="button" class="modal-close-btn">
                 <svg class="modal-close-icon" width="8" height="8">
@@ -472,14 +472,16 @@
                     </div>
                 </div>
 
-                <div class="modal-field">
-                    <label for="comment" class="modal-label">Comment</label>
-                    <textarea name="comment" id="comment" class="modal-textarea" placeholder="Text input"></textarea>
+                <div class="modal-field modal-field-mg">
+                    <label for="user-comment" class="modal-label">Comment</label>
+                    <textarea name="user-comment" id="user-comment" class="modal-textarea"
+                        placeholder="Text input"></textarea>
                 </div>
 
                 <div class="modal-field-check">
-                    <input type="checkbox" name="policy" id="policy" value="true" class="form-check visually-hidden" />
-                    <label for="policy" class="check-text">
+                    <input type="checkbox" name="user-privacy" id="user-privacy" value="true"
+                        class="form-check visually-hidden" />
+                    <label for="user-privacy" class="check-text">
                         <span>
                             <svg class="check-icon" width="10" height="8">
                                 <use href="./images/icons.svg#icon-Vector"></use>
