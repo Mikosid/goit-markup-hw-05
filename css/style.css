@@ -554,10 +554,10 @@ img {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
+  background-color: transparent;
   border-radius: 4px;
   padding-left: 16px;
   margin-right: 24px;
-  background-color: transparent;
 }
 
 .footer-input::placeholder {
